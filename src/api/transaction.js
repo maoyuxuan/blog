@@ -14,7 +14,7 @@ export function fetchList(query) {
         list.push({
           id: i,
           albums: albums,
-          title: "今天今天今天今天今天今天今天今天今天今天",
+          title: "今天今天今天今天今天今天今天今天今天今天啊",
           time: "2017-05-08 12:33",
           type: "知识分享"
         });
