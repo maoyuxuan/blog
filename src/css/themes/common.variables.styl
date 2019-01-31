@@ -1,0 +1,45 @@
+// App Shared Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Stylus variables found in Quasar's source Stylus files. Setting
+// variables before Quasar's Stylus will use these variables rather than
+// Quasar's default Stylus variable values. Stylus variables specific
+// to the themes belong in either the variables.ios.styl or variables.mat.styl files.
+
+// Check documentation for full list of Quasar variables
+
+// App Shared Color Variables
+// --------------------------------------------------
+// It's highly recommended to change the default colors
+// to match your app's branding.
+$primary = #027be3
+$secondary = #26A69A
+$tertiary = #555
+$neutral = #E0E1E2
+$positive = #21BA45
+$negative = #DB2828
+$info = #31CCEC
+$warning = #F2C037
+// 主题
+$global-fontsize = 1rem
+$global-fontsize-large = 1rem * 1.25
+$global-fontfamily = Microsoft YaHei
+$global-color = #0C0C0C
+$global-color-darken = lighten($global-color, 50)
+$global-bgcolor = #78909c
+body, .q-item, .q-tab-label, .q-card-title
+  font-size $global-fontsize !important
+  font-size var(--q-color-global-fontsize, $global-fontsize) !important
+  font-family $global-fontfamily !important
+  font-family var(--q-color-global-fontfamily, $global-fontfamily) !important
+  color $global-color !important
+  color var(--q-color-global-color, $global-color) !important
+.q-toolbar-title
+  font-size $global-fontsize-large !important
+  font-size var(--q-color-global-fontsize-large, $global-fontsize-large) !important
+.caption, .q-item-sublabel
+  color $global-color-darken !important
+  color var(--q-color-global-color-darken, $global-color-darken) !important
+.q-toolbar
+  background-color $global-bgcolor !important
+  background-color var(--q-color-global-bgcolor, $global-bgcolor) !important
